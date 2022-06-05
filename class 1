@@ -9,9 +9,17 @@ class Computer {
  
   public static void main(String[] args) {
     Computer my = new Computer();
-    Laptop your = new Laptop();
+   Tablet your = new Tablet();
    
     my.computer_method();
-    your.laptop_method();
+    your.Tablet_method();
   }
 }
+class Tablet {
+  Computer() {
+    System.out.println("Constructor of Tablet class.");
+  }
+  void Tablet_method() {
+    System.out.println("Power gone! Shut down your Tablet soon...");
+  }
+ 
